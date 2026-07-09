@@ -1,0 +1,92 @@
+[
+  {
+    "app": "Salesforce",
+    "category": "CRM",
+    "desc": "Salesforce is a cloud-based customer relationship management (CRM) platform that helps businesses manage customer data, streamline sales, automate marketing, and provide customer service.",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "mixed",
+    "access_note": "Developers can sign up for a free developer org, but API access for certain Professional Edition organizations may require purchase or be controlled by administrators.",
+    "api": "REST/SOAP/proprietary, comprehensive",
+    "mcp": "official",
+    "verdict": "ready",
+    "blocker": null,
+    "evidence": "developer.salesforce.com",
+    "confidence": "high",
+    "id": 1
+  },
+  {
+    "app": "HubSpot",
+    "category": "CRM",
+    "desc": "HubSpot is a comprehensive CRM platform offering marketing, sales, and customer service software to help businesses grow.",
+    "auth": [
+      "OAuth2",
+      "Private App Access Token",
+      "Service Keys"
+    ],
+    "access": "self-serve",
+    "access_note": "Developers can create a free HubSpot account and generate private app access tokens or set up OAuth 2.0 credentials via their developer dashboard.",
+    "api": "REST, extensive, covering CRM objects (contacts, companies, deals, tickets), marketing, sales, and service tools, with date-based versioning.",
+    "mcp": "official",
+    "verdict": "ready",
+    "blocker": null,
+    "evidence": "https://developers.hubspot.com/docs/api/overview",
+    "confidence": "high",
+    "id": 2
+  },
+  {
+    "app": "Pipedrive",
+    "category": "Sales & CRM",
+    "desc": "Pipedrive is an easy and effective sales CRM that drives small business growth.",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "access_note": "API tokens can be obtained manually from the Pipedrive app, while OAuth credentials (client_id and client_secret) are managed through the Developer Hub after creating a sandbox account.",
+    "api": "REST, extensive",
+    "mcp": "official",
+    "verdict": "ready",
+    "blocker": null,
+    "evidence": "https://developers.pipedrive.com",
+    "confidence": "high",
+    "id": 3
+  },
+  {
+    "app": "Attio",
+    "category": "Sales & CRM",
+    "desc": "Attio is a highly customizable, data-driven CRM platform that enables businesses to manage customer relationships and automate workflows.",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "mixed",
+    "access_note": "To obtain a dedicated developer workspace, users must manually request access via live chat or email to support@attio.com, or use a free trial workspace as a sandbox.",
+    "api": "REST API with broad read/write access, Webhooks, App SDK (Typescript React), and SQL query capabilities.",
+    "mcp": "official",
+    "verdict": "ready",
+    "blocker": null,
+    "evidence": "developers.attio.com",
+    "confidence": "high",
+    "id": 4
+  },
+  {
+    "app": "Twenty",
+    "category": "CRM",
+    "desc": "Twenty is an open-source CRM that allows modern teams to manage customer relationships and extend its functionality through APIs, webhooks, and custom applications.",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "access_note": "API keys can be generated from the Twenty application's Settings \u2192 API & Webhooks, and OAuth credentials are configured during app registration.",
+    "api": "REST and GraphQL APIs for CRUD operations on core CRM objects and custom objects, as well as a Metadata API for schema management, offering broad and schema-per-tenant functionality.",
+    "mcp": "community",
+    "verdict": "ready",
+    "blocker": null,
+    "evidence": "https://docs.twenty.com/developers/api",
+    "confidence": "high",
+    "id": 5
+  }
+]
