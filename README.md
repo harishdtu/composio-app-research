@@ -129,11 +129,11 @@ agent/
   analyze.py              # stage 4: pattern/cluster analysis (deterministic)
   push_to_composio.py      # stage 7 (optional): draft toolkits via Composio SDK
   seed_apps.json            # the 100-app input list
-data/
-  apps_100.json            # final research dataset (100 rows)
-  analytics.json            # output of analyze.py
 verification/
   verification_report.json   # sampled hand-verification, first-pass vs corrected
 site/
   index.html                  # the single-page case study (open this)
+  data/
+  apps_100.json            # final research dataset (100 rows)
+  analytics.json            # output of analyze.py
 ```
