@@ -502,15 +502,7 @@ function accessColor(a){ return a === 'self-serve' ? 'good' : a === 'mixed' ? 'w
       <div class="bar-val">${v}</div>
     </div>`).join('');
 })();
-/* ---------- access & verdict pills ---------- */
-(function(){
-  const a = ANALYTICS.access_distribution;
-  document.getElementById('access-pills').innerHTML = Object.entries(a).map(([k,v]) => `
-    <span class="pill"><i style="background:var(--${accessColor(k)})"></i>${k}: ${v.count} (${v.pct}%)</span>`).join('');
-  const v = ANALYTICS.verdict_distribution;
-  document.getElementById('verdict-pills').innerHTML = Object.entries(v).map(([k,val]) => `
-    <span class="pill"><i style="background:var(--${verdictColor(k)})"></i>${k}: ${val.count} (${val.pct}%)</span>`).join('');
-})();
+
 
 
 /* ---------- category heat ---------- */

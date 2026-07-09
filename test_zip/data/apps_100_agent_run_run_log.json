@@ -1,0 +1,22 @@
+[
+  {
+    "app": "Salesforce",
+    "status": "ok"
+  },
+  {
+    "app": "HubSpot",
+    "status": "ok"
+  },
+  {
+    "app": "Pipedrive",
+    "status": "ok"
+  },
+  {
+    "app": "Attio",
+    "status": "ok"
+  },
+  {
+    "app": "Twenty",
+    "status": "ok"
+  }
+]
